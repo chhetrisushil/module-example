@@ -1,4 +1,4 @@
-# jifflenow-test
+# ES6-module example
 
 ### View the output
 * Run `npm install`
