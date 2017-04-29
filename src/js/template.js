@@ -46,6 +46,8 @@ let ResultTemplate = `<table cellspacing="0" cellpadding="0" border="0">
   </tfoot>
 </table>`;
 
-export {QuizTemplate};
-export {AnswerChoices};
-export {ResultTemplate};
+export {
+  QuizTemplate,
+  AnswerChoices,
+  ResultTemplate
+};
