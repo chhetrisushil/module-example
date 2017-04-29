@@ -14,6 +14,11 @@ import {
 }
 from './datasource.js';
 
+// remove the checkDiv
+let checkDiv = document.getElementById('checkSupport');
+
+checkDiv.parentNode.removeChild(checkDiv);
+
 async function init() {
   let questions = await getQuestions();
 
